@@ -62,7 +62,7 @@ a:hover
 
 .app
 {
-     background-image: url(/img/background_image_1.png);
+     background-image: url(img/background_image_1.png);
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
@@ -194,7 +194,7 @@ a:hover
 .order-section
 {
      margin-top: 187px;
-     background: url(/img/background_image_2.png) center center/cover no-repeat;
+     background: url(img/background_image_2.png) center center/cover no-repeat;
      text-align: center;
 }
 
