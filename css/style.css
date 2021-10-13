@@ -1,0 +1,266 @@
+*
+{
+     margin: 0;
+     padding: 0;
+     font-style: 16px;
+     font-weight: normal;
+}
+
+a
+{
+     text-decoration: none;
+}
+
+a:hover
+{
+     color:rgb(250,0,12);
+}
+
+.flex
+{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+.container
+{
+     max-width: 1105px;
+     margin: 0 auto;
+}
+
+.logo_picture
+{   
+     padding: 30px 0 30px 0;
+}
+
+.nav_list
+{
+     height: 20px;
+     width: 580px;
+}
+
+.nav_list_link
+{
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 28px;
+     color: #252B42;
+}
+
+.nav_list_link.first 
+{
+     color: #FA4A0C;
+}
+
+.nav_list_link.first:hover
+{
+     color:rgb(250,0,12);
+}
+
+.app
+{
+     background-image: url(/img/background_image_1.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     color: #ffffff;
+     text-align: center;
+     padding: 80px 0 162px;
+
+}
+
+.app_pretitle
+{
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 24px;
+     line-height: 36px;
+     letter-spacing: 0.1px;
+     color: #F7F7F7;
+}
+
+.app-title
+{
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 58px;
+     line-height: 80px;
+     letter-spacing: 0.2px;
+     margin: 10px auto;
+     max-width: 800px;
+}
+
+.app-descr
+{
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 38px;
+     letter-spacing: 0.2px;
+     color: #F7F7F7;
+     margin-bottom: 54px;
+}
+
+.button
+{
+     width: 236px;
+     height: 68px;
+     color:#F7F7F7;
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 24px;
+     line-height: 36px;
+     letter-spacing: 0.1px;
+     border-radius: 30px;
+     cursor: pointer;
+}
+
+.button:hover
+{
+     box-shadow: inset 236px 0 0 0 rgb(250,0,12);
+
+}
+
+.button:first-of-type
+{
+     background: #FA4A0C;
+     border: 1px solid #FA4A0C;
+     margin-right: 67px;
+}
+
+.button:last-of-type
+{
+     background: none;
+     border: 1px solid white;
+}
+
+.app-top-title>h3
+{
+     margin: 57px 0 70px 0;
+     text-align: center;
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 44px;
+     line-height: 36px;
+     letter-spacing: 0.1px;
+     color: #000000;
+}
+
+.create-text
+{
+     height: 280px;
+     width: 568px;
+
+}
+
+.create-offer
+{
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 24px;
+     line-height: 36px;
+     letter-spacing: 0.1px;
+     color: #FA4A0C;
+}
+.create-title
+{
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 40px;
+     line-height: 57px;
+     letter-spacing: 0.2px;
+     color: #252B42;
+}
+.create-descr
+{
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 38px;
+     letter-spacing: 0.2px;
+     color: #737373;
+}
+.order-section
+{
+     margin-top: 187px;
+     background: url(/img/background_image_2.png) center center/cover no-repeat;
+     text-align: center;
+}
+
+.order-now
+{
+     padding-top: 147px;
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 40px;
+     line-height: 57px;
+     letter-spacing: 0.2px;
+     color: #FFFFFF;
+     
+}
+
+.order-buttons
+{
+     padding-bottom: 145px;
+}
+
+.order-button
+{
+     
+     color:#F7F7F7;
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 24px;
+     line-height: 36px;
+     letter-spacing: 0.1px;
+     border: none;
+     border-radius: 10px;
+     cursor: pointer;
+}
+
+.order-button:hover
+{
+     box-shadow: inset 236px 0 0 0 rgb(250,0,12);
+
+}
+
+.order-button:first-of-type
+{
+     background: #FA4A0C;
+     border: 1px solid #FA4A0C;
+     margin-right: 20px;
+     width: 142px;
+     height: 64px;
+}
+
+.order-button:last-of-type
+{
+     background: none;
+     border: 1px solid white;
+     width: 173px;
+     height: 64px;
+}
+
+.copyright_text
+{
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 12px;
+     line-height: 18px;
+     letter-spacing: 0.1px;
+     color: #5C5C5C;
+}
